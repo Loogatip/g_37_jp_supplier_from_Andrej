@@ -1,0 +1,22 @@
+spring:
+  mail:
+    username: ait.andrey.mailer@gmail.com
+    password: pwezgboxguvtjzzs
+    host: smtp.gmail.com
+    port: 587
+    properties:
+      mail:
+        debug: false
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          ssl:
+            protocols: TLSv1.2
+            trust: smtp.gmail.com
+
+supplier:
+  email: ait.andrey.p@gmail.com
+
+server:
+  port: 8081
